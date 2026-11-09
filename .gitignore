@@ -1,0 +1,25 @@
+# MATLAB
+*.asv
+*.m~
+*.autosave
+
+# MATLAB generated files
+*.mex*
+*.p
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large/raw astronomical data
+# Keep raw FITS out of Git by default; document download instructions instead.
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated results
+results/figures/*
+!results/figures/.gitkeep
